@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores CSS3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            background-color: #666666;
+        }
+
+        * {
+            font-family: "Montserrat", sans-serif;
+            font-size: 50px;
+        }
+
+        a {
+            display: block;
+            margin: 10px;
+            background-color: #fff;
+            opacity: .95;
+        }
+
+        .interno {
+            text-decoration: none;
+            font-family: "Roboto Slab", serif;
+        }
+        
+        a[href^="http://"] {
+            color: palegreen;
+            font-weight: bold;
+        }
+
+        a[target^="_b"] {
+            color: red;
+        }
+
+        a[href$=".es"] {
+            color: rgb(0, 50, 0);
+            background-color: rgba(0, 0, 50, .6);
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <a href="pagina1.html" class="interno">Interno</a>
+    <br>
+    <a href="http://www.google.es">Externo</a>
+    <br>
+    <a href="#identificador">En pagina</a>
+    <br>
+    <a href="otro-sitio-html" target="_top">Interno</a>
+    <br>
+    <a href="http://..." target="_blank">Externo</a>
+</body>
+</html>

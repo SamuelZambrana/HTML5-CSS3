@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas básicas</title>
+</head>
+<body>
+    <h1>Nuestra primera tabla</h1>
+    <p>Este es el ejemplo de una tabla</p>
+    <table border="1"> <!--Crea una tabla de contenido-->
+        <tr> <!-- tr Se inicializa la tabla y puedes meter th o td-->
+            <th>Nombre</th> <!-- th Encabezado-->
+            <th>Teléfono</th>
+            <th>e-mail</th>
+        </tr>
+        <tr>
+            <td>Samuel</td> <!--td Datos-->
+            <td>+34 655456789</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sandra</td>
+            <td>+34 677543234</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Pepe</td>
+            <td>+34 678905434</td>
+            <td>pepe@ejemplo.com</td>
+        </tr>
+    </table>
+    
+    <h2>Segunda Tabla</h2>
+    <table border="1">
+    <thead>
+        <tr>
+            <th colspan="3">Lista de contactos</th>
+        </tr>
+        <tr> <!-- tr Se inicializa la tabla y puedes meter th o td-->
+            <th>Nombre</th> <!-- th Encabezado-->
+            <th>Teléfono</th>
+            <th>e-mail</th>
+        </tr>
+    </thead> <!--Cabezera de la tabla-->
+    <tbody>
+        <tr>
+            <td>Samuel</td> <!--td Datos-->
+            <td>+34 655456789</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sandra</td>
+            <td>+34 677543234</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Pepe</td>
+            <td>+34 678905434</td>
+            <td>pepe@ejemplo.com</td>
+        </tr>
+    </tbody> <!--Cuerpo de la tabla-->
+    <tfoot>
+        <tr>
+            <th colspan="2">Total:</th>
+            <td>3 Contactos</td>
+        </tr>
+    </tfoot> <!--Pie de la tabla-->
+    </table>
+
+    <h2>Tercera tabla</h2>
+    <table border="1">
+        <tr>
+            <td colspan="2" rowspan="2">Uno</td>
+            <td colspan="3">Dos</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>32</td>
+            <td>33</td>
+            <td>34</td>
+        </tr>
+    </table>
+</body>
+</html>

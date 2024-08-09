@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Primer Formulario</h1>
+
+    <form action="resultados.html" method="get">
+
+        <fieldset>
+         <legend>Datos de identificacion</legend>
+         <label for="nombre">
+          Nombre:
+         </label>
+         <br>
+         <input type="text" id="nombre" name="nombre" required>
+         <br>
+         <label for="apellido">
+          Apellido:
+          </label>
+          <br>
+          <input type="text" id="apellido" name="apellido">
+        </fieldset>
+
+        <br><br>
+
+
+        <fieldset>
+         <legend>Datos de contacto</legend>
+         <label for="email">
+         Correo electronico:
+         </label>
+         <input type="email" name="email" id="email" required>
+         <br>
+         <label for="telefono">
+          Telefono
+         </label>
+         <input type="tel" name="telefono" id="telefono">
+        </fieldset>
+
+        <br><br>
+    
+        <fieldset>
+         <legend>Sobre ti:</legend>
+         <label for="color">
+         Cual es tu color favorito?
+         </label>
+         <select name="color" id="color">
+            <option value="">-- Selecciona un color --</option>
+            <option value="1">Rojo</option>
+            <option value="2">Verde</option>
+            <option value="3">Azul</option>
+         </select>
+         <br>
+         <label for="valoracion">
+          Como valoas los cursos de keepcoding?</label>
+         <label for="bio"></label>
+         <br>
+         <input type="number" name="valoracion" id="valoracion" value="10">
+         <br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <br><br>
+        
+        <input  type="submit" value="Enviar formulario">
+    </form>
+</body>
+</html>
