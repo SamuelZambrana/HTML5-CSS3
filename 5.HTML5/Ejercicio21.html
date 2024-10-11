@@ -1,0 +1,30 @@
+<!--
+Enunciado:
+Crea un formulario con un campo de tipo TEXTO con estas caracteristicas,
+    -Debe ser obligatorio
+    -Minimo se puede introducir 3 caracteres y maximo 10
+    Solo podras meter espacios y letras de A-Z en minusculas y mayusculas
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario tipo texto</title>
+</head>
+<body>
+    <h1>Formulario tipo texto</h1>
+
+    <form action="" method="post">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" minlength="3" maxlength="10" name="nombre" id="nombre" required pattern="[A-Za-z ] + " >
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+        </div>
+       
+
+    </form>
+    
+</body>
+</html>

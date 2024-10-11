@@ -1,0 +1,115 @@
+<!--
+Enunciado:
+Crea un formulario con un campo de tipo TEXTAREA,
+EMAIL, CONTRASEÑA, RADIO, SELECT, CHECKBOX, FICHERO, FECHA, NUMERO, COLOR Y SUBMIT.
+
+Todos los campos deberan estar dentro de un fieldset y usar el campo legend
+
+Todos los campos deberan de tener un label
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario tipo textarea</title>
+</head>
+<body>
+    <h1>Formulario tipo textarea</h1>
+    <form action="" method="post">
+
+        <fieldset >
+            <legend>Descripcion</legend>
+            <label for="descripcion">Introduce una descripcion</label>
+            <br>
+            <textarea name="descripcion" id="descripcion"></textarea>
+        </fieldset>
+
+        <fieldset >
+            <legend>email</legend>
+            <label for="email">Introduce un correo electronico</label>
+            <br>
+            <input type="email" name="email" id="email">
+        </fieldset>
+
+        <fieldset >
+            <legend>Contraseña</legend>
+            <label for="contraseña">Introduce una contraseña</label>
+            <br>
+            <input type="password" name="password" id="password">
+        </fieldset>
+
+        <fieldset >
+            <legend>Radio</legend>
+            <label for="edad">Edad: </label>
+            <br>
+
+            <input type="radio" name="edad" id="mayor">
+            <label for="mayor">Mayor de edad</label>
+
+            <input type="radio" name="edad" id="menor">
+            <label for="menor">Menor de edad</label>
+
+        </fieldset>
+
+        <fieldset >
+            <legend>Select</legend>
+            <label for="select">Comidas</label>
+            <br>
+            <select name="menu" id="menu">
+                <option value="vacio"></option>
+                <option value="Lentejas">Lentejas</option>
+                <option value="Cocido">Cocido</option>
+                <option value="Lasaña">Lasaña</option>
+                <option value="Macarrones">Macarrones</option>
+                <option value="Legumbres">Legumbres</option>
+            </select>
+            
+        </fieldset>
+
+        <fieldset >
+            <legend>CHECKBOX</legend>
+            <label for="checkbox">¿Eres vegano?</label>
+            <br>
+            <input type="checkbox" name="vegano" id="vegano">
+        </fieldset>
+
+        <fieldset >
+            <legend>FICHERO</legend>
+            <label for="fichero">Sube tu archivo</label>
+            <br>
+            <input type="file" name="archivo" id="archivo">
+        </fieldset>
+
+        <fieldset >
+            <legend>fecha</legend>
+            <label for="fecha">Introduce tu fecha de nacimiento</label>
+            <br>
+            <input type="date" name="date" id="date">
+        </fieldset>
+
+        <fieldset >
+            <legend>NUMERO</legend>
+            <label for="numero">Introduce tu edad</label>
+            <br>
+            <input type="number" name="numero" id="numero">
+        </fieldset>
+
+        <fieldset >
+            <legend>COLOR</legend>
+            <label for="color">Escoge un color</label>
+            <br>
+            <input type="color" name="color" id="color">
+        </fieldset>
+
+        <fieldset >
+            <legend>SUBMIT</legend>
+            <label for="submit">Enviar datos</label>
+            <br>
+            <input type="submit" name="enviar" id="enviar">
+        </fieldset>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!--
+Enunciado:
+Crea un formulario con un campo de tipo BUSQUEDA,
+TELEFONO, HORA, URL, BARRA PROGRESO, LISTA DE DATOS, SUBMITY RESET.
+
+Todos los campos deben tener un label
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario campo tipo busqueda</title>
+</head>
+<body>
+    <h1>Formulario tipo busqueda</h1>
+    <form action="" method="post">
+
+        <fieldset >
+            <legend>Busqueda</legend>
+            <label for="Busqueda">Introduce algo que quieras buscar</label>
+            <br>
+           <input type="search" name="busqueda" id="busqueda">
+        </fieldset>
+
+        <fieldset >
+            <legend>Telefono</legend>
+            <label for="telefono">Introduce tu numero de telefono</label>
+            <br>
+            <input type="tel" name="telefono" id="telefono">
+        </fieldset>
+
+        <fieldset >
+            <legend>Hora</legend>
+            <label for="hora">Introduce una hora</label>
+            <br>
+            <input type="time" name="hora" id="hora">
+        </fieldset>
+
+        <fieldset >
+            <legend>URL</legend>
+            <label for="url">Introduce una URL: </label>
+            <br>
+            <input type="url" name="url" id="url">
+        
+        </fieldset>
+
+        <fieldset >
+            <legend>Barra progreso</legend>
+            <label for="barra-progreso">Barra de progreso</label>
+            <br>
+            <progress max="100" value="27"></progress>
+            
+        </fieldset>
+
+        <fieldset >
+            <legend>Lista de Datos</legend>
+            <label for="coches">Coches</label>
+            <br>
+            <input list="coches" name="coche" >
+            <datalist id="coches">
+                <option value="audi"></option>
+                <option value="mercede"></option>
+                <option value="bmw"></option>
+            </data>
+        
+        </fieldset>
+
+        <fieldset >
+            <legend>Submit</legend>
+            <label for="submit">Enviar</label>
+            <br>
+            <input type="submit" name="enviar" id="enviar">
+        </fieldset>
+
+        <fieldset >
+            <legend>Reset</legend>
+            <label for="reset">Reset</label>
+            <br>
+            <input type="reset" name="reset" id="reset">
+        </fieldset>
+
+    </form>
+</body>
+</html>
