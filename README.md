@@ -1,8 +1,12 @@
 # Aprende HTML y CSS - Curso Desde Cero
 
-Este repositorio contiene el código del curso "Aprende HTML y CSS - Curso desde Cero" creado para freeCodeCamp.
+Este repositorio contiene el código del curso "Aprende HTML y CSS - Curso desde Cero" para cualquier persona que quiera aprender.
 
 El curso de 5+ horas está diseñado para que aprendas los fundamentos de HTML y CSS paso a paso a través de la práctica  y con ejemplos que te ayudarán a aplicar tus conocimientos.
+
+![imagen](https://github.com/user-attachments/assets/d6998543-b13c-4a7e-b573-da9119bec8d9)
+
+
 
 ## 🔹 Contenido
 
